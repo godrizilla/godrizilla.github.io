@@ -324,6 +324,7 @@ tbody tr:nth-child(odd) th {
   background: #C3FC40;
   padding: 3px;
   display: inline;
+  color: #000000;
 }
 
 /* Meta data line below post title */
