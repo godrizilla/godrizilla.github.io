@@ -323,7 +323,7 @@ tbody tr:nth-child(odd) th {
 .page-title, .post-title{
   background: #C3FC40;
   padding: 3px;
-  display: inline;
+  display: inline-block;
 }
 
 /* Meta data line below post title */
