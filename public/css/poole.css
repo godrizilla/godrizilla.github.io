@@ -206,6 +206,10 @@ img {
   border-radius: 5px;
 }
 
+.title-img{
+  border-radius: 0px;
+}
+
 /* Tables */
 table {
   margin-bottom: 1rem;
