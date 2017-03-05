@@ -320,6 +320,11 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
 }
 
+.page-title, .post-title{
+  background: #C3FC40;
+  padding: 3px;
+}
+
 /* Meta data line below post title */
 .post-date {
   display: block;
