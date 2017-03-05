@@ -320,9 +320,10 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
 }
 
-.page-title{
+.page-title, .post-title{
   background: #C3FC40;
   padding: 3px;
+  display: inline;
 }
 
 /* Meta data line below post title */
@@ -331,7 +332,7 @@ tbody tr:nth-child(odd) th {
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #000;
-
+  font-weight: bold;
   background: #C3FC40;
   padding: 3px;
 }
