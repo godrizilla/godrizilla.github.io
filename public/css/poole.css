@@ -323,13 +323,12 @@ tbody tr:nth-child(odd) th {
 .page-title, .post-title{
   background: #C3FC40;
   padding: 3px;
-  display: block;
-  color: #000000;
+  display: inline;
 }
 
 /* Meta data line below post title */
 .post-date {
-  display: inherit;
+  display: inline;
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #000;
