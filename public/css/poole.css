@@ -303,7 +303,9 @@ tbody tr:nth-child(odd) th {
  * Each post is wrapped in `.post` and is used on default and post layouts. Each
  * page is wrapped in `.page` and is only used on the page layout.
  */
-
+.page{
+  display: inline;
+}
 .page,
 .post {
   margin-bottom: 4em;
