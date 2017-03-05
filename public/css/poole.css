@@ -331,10 +331,13 @@ tbody tr:nth-child(odd) th {
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #000;
-   background: #C3FC40;
-  padding: 3px;
+
 }
 
+.spn-post-date{
+  background: #C3FC40;
+  padding: 3px;
+}
 /* Related posts */
 .related {
   padding-top: 2rem;
