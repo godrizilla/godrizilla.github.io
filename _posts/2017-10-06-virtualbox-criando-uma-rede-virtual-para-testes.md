@@ -22,13 +22,13 @@ O que vamos precisar?
 
 Virtualizando o Ubuntu Server
 ===
-Após fazer o Download do Ubuntu Server no site oficial da [Canonical](https://www.ubuntu.com/download/server), abra o virtualbox e cria uma nova máquina, com configurações para sistema operacional linux ou ubuntu, cria a instalação normalmente, como de qualquer outro sistema operacional, vai demorar um pouco, como o Ubuntu Server não utiliza a interface gráfica unity, o tamanho de sua iso fica por volta de 850mb.
+Após fazer o Download do Ubuntu Server no site oficial da [Canonical](https://www.ubuntu.com/download/server), abra o virtualbox e cria uma nova máquina, com configurações para sistema operacional linux ou ubuntu, cria a instalação normalmente como de qualquer outro sistema operacional, como o Ubuntu Server não utiliza a interface gráfica unity, o tamanho de sua iso fica por volta de 850mb, e por isso a instalação deve ser rapida.
 
 Configurando o Ubuntu Server por meio de SSH
 ===
 Primeiro temos que descobrir qual é o ip do nosso servidor, podemos utilizar o comando ```ip a```, Logo em seguida será listado todas as placas de rede e seus IPS.
 
-Agora precisamos configurar o servidor SSH no Ubuntu server, para isso usamos o comando ```apt get -y install openssh-server && apt get -y install openssh-client```.
+Agora precisamos configurar o servidor SSH no Ubuntu server, para isso usamos o comando ```apt get -y install openssh-server && apt get -y install openssh-client```<br>
 Depois da instalação das duas bibliotecas, vamos alterar algumas configurações do ubuntu server, utilizando o comando ```vim /etc/shh/sshd_config``` o vim abrirá o arquivo que contém as configurações, vamos alterar ```PermitRootLogin probit-password``` para ```PermitRootLogin yes```
 
 Reinicie o serviço com o comando ```systenctl restart ssh```
@@ -36,7 +36,7 @@ Reinicie o serviço com o comando ```systenctl restart ssh```
 PuTTY
 ===
 
-Digite o IP do servidor, porta 22 usuario e senha...
+Digite o IP do servidor, porta 22, usuario e senha...
 ![alt text](https://media.tenor.com/images/99ea8a97df366a4c6f26b5e99a9a7c45/tenor.gif "Voila!")
 <br>Pronto você vai ter acesso ao seu servidor por meio do PuTTY
 
