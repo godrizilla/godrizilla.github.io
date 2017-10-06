@@ -220,7 +220,7 @@ a.sidebar-nav-item:focus {
 
 .li_stile{
     background-color: #C3FC40;
-    color: black;
+    color: #000;
     font-weight: bold;
     width: auto;
 }
