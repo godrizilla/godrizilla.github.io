@@ -5,8 +5,7 @@ layout: post
 tags: [virtualbox, redes]
 categories: [redes]
 ---
-
-<img src="http://lh4.ggpht.com/_iDvWufT87hE/S87nUVbojyI/AAAAAAAAFfU/AfNJdyXMz-M/w1200-h630-p-k-no-nu/netvirtual.jpg">
+![alt text](http://lh4.ggpht.com/_iDvWufT87hE/S87nUVbojyI/AAAAAAAAFfU/AfNJdyXMz-M/w1200-h630-p-k-no-nu/netvirtual.jpg "Virtualbox")
 <br>
 
 Máquinas Virtuais têm propósitos diferentes, mas sem dúvida são indispensáveis na hora que queremos criar um ambiente de desenvolvimento ou de testes, o fato, que toda sua configuração pode ser simplesmente refeita com um clique, tira o peso de cometer algum erro e comprometer todo o seu sistema operacional.
