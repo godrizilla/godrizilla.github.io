@@ -5,7 +5,8 @@ layout: post
 tags: [Arduino]
 categories: [arduino]
 ---
-![alt text](https://i.imgur.com/68leh8W.png "Sinaleira com arduino")
+
+<img src="https://i.imgur.com/68leh8W.png" width="80%" alt="Sinaleira com arduino">
 <br>
 
 Uma das coisas que comecei a fazer em 2017 foi brincar com eletronica, em especial o Arduino, sempre fui apaixonado por computação em geral, principalmente o computador em si, era incrivel aquele computador velho que meu tio deu em troca de uma divida pra minha mãe que agora era a minha super maquina de computação, um computador com um HD de 15GB, 256Mb de Ram e com direito a botão TURBO, ele ja era na epoca um branco amarelo, mas me divertia muito com o Paint... e depois com um jogo que era uma especia de RPG so com texto, foi nessas brincadeiras, que descobri que dentro das pastas do jogo existiam alguns arquivos ***.rb*** e dava pra edita-los...
